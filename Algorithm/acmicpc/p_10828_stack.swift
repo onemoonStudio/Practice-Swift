@@ -1,18 +1,7 @@
-//
-//  main.swift
-//  Algorithm
-//
-//  Created by Hyeontae on 19/12/2018.
-//  Copyright © 2018 onemoon. All rights reserved.
-//
-
 // Stack
 // struct 에서는 프로퍼티를 수정할 때 mutating 이라는 키워드가 꼭 필요하다
 
 // v1 : 12.19 , 옵셔널에 대해서 좀 더 살펴보기
-
-
-print("Hello Algorithm")
 
 struct Stack {
     var array: [Int] = []

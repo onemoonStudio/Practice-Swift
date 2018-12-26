@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D981DEA221CA8733004DBEB1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D981DEA121CA8733004DBEB1 /* main.swift */; };
+		D968578021D3BE1C00395E80 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D968577721D3BB8D00395E80 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,9 +23,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D968577721D3BB8D00395E80 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D968577B21D3BC7800395E80 /* level1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = level1.swift; sourceTree = "<group>"; };
 		D981DE9E21CA8733004DBEB1 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
-		D981DEA121CA8733004DBEB1 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		D981DEA821CA927B004DBEB1 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		D981DF0B21CE3E9B004DBEB1 /* p_10828_stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = p_10828_stack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,11 +41,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D968577A21D3BC6900395E80 /* programmers */ = {
+			isa = PBXGroup;
+			children = (
+				D968577B21D3BC7800395E80 /* level1.swift */,
+			);
+			path = programmers;
+			sourceTree = "<group>";
+		};
 		D981DE9521CA8733004DBEB1 = {
 			isa = PBXGroup;
 			children = (
 				D981DEA821CA927B004DBEB1 /* .gitignore */,
-				D981DEA021CA8733004DBEB1 /* Algorithm */,
+				D968577721D3BB8D00395E80 /* main.swift */,
+				D968577A21D3BC6900395E80 /* programmers */,
+				D981DEA021CA8733004DBEB1 /* acmicpc */,
 				D981DE9F21CA8733004DBEB1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,12 +68,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D981DEA021CA8733004DBEB1 /* Algorithm */ = {
+		D981DEA021CA8733004DBEB1 /* acmicpc */ = {
 			isa = PBXGroup;
 			children = (
-				D981DEA121CA8733004DBEB1 /* main.swift */,
+				D981DF0B21CE3E9B004DBEB1 /* p_10828_stack.swift */,
 			);
-			path = Algorithm;
+			path = acmicpc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +108,7 @@
 				TargetAttributes = {
 					D981DE9D21CA8733004DBEB1 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -121,7 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D981DEA221CA8733004DBEB1 /* main.swift in Sources */,
+				D968578021D3BE1C00395E80 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,8 +259,15 @@
 		D981DEA621CA8733004DBEB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
@@ -255,7 +275,13 @@
 		D981DEA721CA8733004DBEB1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};

@@ -28,6 +28,8 @@
 		D981DE9E21CA8733004DBEB1 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		D981DEA821CA927B004DBEB1 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		D981DF0B21CE3E9B004DBEB1 /* p_10828_stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = p_10828_stack.swift; sourceTree = "<group>"; };
+		D990F9DE21E201B20082F8F8 /* boostCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = boostCamp.swift; sourceTree = "<group>"; };
+		D9FC8DFB22364B110098994C /* linePlus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = linePlus.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				D981DEA821CA927B004DBEB1 /* .gitignore */,
 				D968577721D3BB8D00395E80 /* main.swift */,
+				D990F9DD21E201760082F8F8 /* codingTest */,
 				D968577A21D3BC6900395E80 /* programmers */,
 				D981DEA021CA8733004DBEB1 /* acmicpc */,
 				D981DE9F21CA8733004DBEB1 /* Products */,
@@ -74,6 +77,15 @@
 				D981DF0B21CE3E9B004DBEB1 /* p_10828_stack.swift */,
 			);
 			path = acmicpc;
+			sourceTree = "<group>";
+		};
+		D990F9DD21E201760082F8F8 /* codingTest */ = {
+			isa = PBXGroup;
+			children = (
+				D990F9DE21E201B20082F8F8 /* boostCamp.swift */,
+				D9FC8DFB22364B110098994C /* linePlus.swift */,
+			);
+			path = codingTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

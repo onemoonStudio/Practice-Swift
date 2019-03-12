@@ -30,6 +30,7 @@
 		D981DF0B21CE3E9B004DBEB1 /* p_10828_stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = p_10828_stack.swift; sourceTree = "<group>"; };
 		D990F9DE21E201B20082F8F8 /* boostCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = boostCamp.swift; sourceTree = "<group>"; };
 		D9FC8DFB22364B110098994C /* linePlus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = linePlus.swift; sourceTree = "<group>"; };
+		D9FC8DFD223691640098994C /* naver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = naver.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +85,7 @@
 			children = (
 				D990F9DE21E201B20082F8F8 /* boostCamp.swift */,
 				D9FC8DFB22364B110098994C /* linePlus.swift */,
+				D9FC8DFD223691640098994C /* naver.swift */,
 			);
 			path = codingTest;
 			sourceTree = "<group>";
